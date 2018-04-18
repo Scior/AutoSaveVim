@@ -13,14 +13,14 @@ let g:loaded_autosave = 1
 " define and set paramaters
 function! s:setDefaultValue(name, value)
   if !exists(a:name)
-	let {a:name} = a:value
+    let {a:name} = a:value
   endif
 endfunction
 
 " save changed buffer
 function! s:updateBuffer()
   if @% != ''
-	up
+    up
   endif
 endfunction
 

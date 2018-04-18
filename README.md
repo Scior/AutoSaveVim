@@ -10,6 +10,6 @@ set updatetime=1000
 ## Installation
 (Under construction)
 ## TODO
-- Hold a backup of an original file until the file is closed
+- Hold a backup of an original file until the file is closed (done)
 - Make commands to disable autosave temporarily
 - Set file size limit to autosave
